@@ -1343,6 +1343,7 @@ mark,
 }
 .text-primary {
   color: #008b8b; //337cbb
+  text-shadow: 1px 1px #32a2a2;
 }
 a.text-primary:hover {
   color: #286193;
@@ -6583,6 +6584,7 @@ body {
 }
 .jumbotron h1.text-primary {
   color: #008b8b !important; //337cbb
+  text-shadow: 1px 1px #32a2a2;
 }
 .jumbotron h1.text-inverse {
   color: #ffffff !important;
@@ -6706,6 +6708,7 @@ body {
 }
 .cover h1.text-primary {
   color: #008b8b !important; //337cbb
+  text-shadow: 1px 1px #32a2a2;
 }
 .cover h1.text-inverse {
   color: #ffffff !important;
