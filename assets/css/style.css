@@ -187,7 +187,7 @@ input {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 650px;
+	min-height: 50px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -203,8 +203,8 @@ input {
 
 #h h1 {
 	color: white;
-	font-weight: 900;
-	font-size: 70px;
+	font-weight: 800;
+	font-size: 60px;
 	letter-spacing: 5px;
 }
 
