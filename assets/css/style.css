@@ -135,6 +135,7 @@ input {
 	background-color: #fff;
 	-webkit-transition: background-color 0.2s;
 	transition: background-color 0.2s;
+	color: #1abc9c;
 }
 
 .subscribe-input {
