@@ -1,14 +1,14 @@
 /* Import fonts */
 @import url(http://fonts.googleapis.com/css?family=Raleway:900,700,400);
 
-* { 
+* {
 	margin: 0;
 	padding: 0px;
     font-family: 'Raleway', sans-serif;
-} 
-body { 
-	background: #fff; 
-	margin: 0; 
+}
+body {
+	background: #fff;
+	margin: 0;
 	color: #5a5a5a;
 }
 
@@ -18,15 +18,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-p { 
-	padding: 0; 
-	margin-bottom: 12px; 
+p {
+	padding: 0;
+	margin-bottom: 12px;
     font-family: 'Raleway', sans-serif;
 	font-weight: 300;
-	font-size: 18px; 
+	font-size: 18px;
 	line-height: 28px;
-	color: #666; 
-	margin-top: 10px; 
+	color: #666;
+	margin-top: 10px;
 }
 
 html,
@@ -76,10 +76,10 @@ body {
 	padding: 0;
 	margin: 0;
 }
-a { 
+a {
 	padding: 0;
 	margin: 0;
-	text-decoration: none; 
+	text-decoration: none;
 	-webkit-transition: background-color .4s linear, color .4s linear;
 	-moz-transition: background-color .4s linear, color .4s linear;
 	-o-transition: background-color .4s linear, color .4s linear;
@@ -168,6 +168,38 @@ input {
 	color: white;
 }
 
+.btn-pink {
+	background: #ffffff;
+	color: #DA2153;
+	border: 1px solid #ffffff;
+	font-weight: normal;
+	font-size: 1.3em;
+	/*background-image: -webkit-linear-gradient(top, #F44676, #DA2153);
+	background-image: -moz-linear-gradient(top, #F44676, #DA2153);
+	background-image: -ms-linear-gradient(top, #F44676, #DA2153);
+	background-image: -o-linear-gradient(top, #F44676, #DA2153);
+	background-image: linear-gradient(to bottom, #F44676, #DA2153);
+	-webkit-border-radius: 8;
+	-moz-border-radius: 8;
+	border-radius: 8px;
+	font-style: inherit;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;*/
+}
+
+.btn-pink:hover {
+	background: #ffffff;
+	color: #DA2153;
+	/*background-image: -webkit-linear-gradient(top, #F44676, #F44676);
+	background-image: -moz-linear-gradient(top, #F44676, #F44676);
+	background-image: -ms-linear-gradient(top, #F44676, #F44676);
+	background-image: -o-linear-gradient(top, #F44676, #F44676);
+	background-image: linear-gradient(to bottom, #F44676, #F44676);
+	text-decoration: none;*/
+}
+
 /* HEADER SECTION */
 #h {
 	background: url(../img/header.jpg) no-repeat center top;
@@ -177,7 +209,7 @@ input {
 	background-position: center center;
 	min-height: 650px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -354,7 +386,7 @@ input {
 }
 @media(max-width: 448px){
 	body{
-		overflow-x:hidden; 
+		overflow-x:hidden;
 	}
 	#h{
 	    min-height: 250px;
